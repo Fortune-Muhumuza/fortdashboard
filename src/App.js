@@ -8,14 +8,14 @@ import ProjectsTable from "./components/common/ProjectsTable";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-       <ProjectsTable />
-      </header>
-    </div>
+    <BrowserRouter>
+    <Routes>
+    <Route path="/projectTable" element={<ProjectsTable />}></Route>
+      <Route path="/" element={<App />}>
+      
+      </Route>
+    </Routes>
+  </BrowserRouter>
   );
 }
 
