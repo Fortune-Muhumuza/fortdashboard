@@ -1,0 +1,18 @@
+$backgroundColor:  #282c34;
+$defaultComponentColor: #202940;
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: #1F283E;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+font-size: 1.6rem;
+}

@@ -1,0 +1,83 @@
+$defaultComponentColor: #293450;
+$defaultTextColor: white;
+$tableHeadingFontSize: 1.1rem;
+
+
+.table{
+
+    &-header{
+        padding: 1.5rem 3rem;
+    }
+&-container{
+    background-color: $defaultComponentColor;
+    color: $defaultTextColor;
+    width: 80%;
+    border-radius: 2rem;
+}
+
+&-heading{
+   
+   
+
+    &--main{
+        font-weight: 700;
+    }
+
+
+}
+
+
+}
+
+
+#customers {
+    
+    color: $defaultTextColor;
+    width: 100%;
+ 
+
+    th{
+        text-transform: uppercase;
+        color: lightblue;
+        font-size: $tableHeadingFontSize;
+    }
+}
+
+#customers td,
+#customers th {
+    border-bottom: .5px solid grey;
+    padding: 1.5rem 3rem;
+    text-align: left;
+    
+}
+
+#progress{
+    background-image: linear-gradient(to left,lightgrey 40%,rgb(219, 71, 71) 40%);
+    height: 3px;
+    padding: 5px 1px;
+}
+
+#progress2{
+    background-image: linear-gradient(to left,lightgrey 80%,rgb(71, 219, 78) 40%);
+    height: 3px;
+    padding: 5px 1px;
+
+}
+
+#progress3{
+    background-image: linear-gradient(to left,lightgrey 60%,rgb(71, 73, 219) 40%);
+    height: 3px;
+    padding: 5px 1px;
+
+}
+
+
+
+#company{
+   font-weight: 700;
+}
+
+#budget{
+    color: lightblue;
+    font-weight: 600;
+}
